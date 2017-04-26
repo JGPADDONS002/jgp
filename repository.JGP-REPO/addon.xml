@@ -1,0 +1,16 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.JGP-REPO" name="JGP-REPO official Repo" version="3.3.0" provider-name="JGP-REPO">
+	<extension point="xbmc.addon.repository" name="JGP-REPO official Repo">
+		<info compressed="false"> </info>
+		<checksum>https://raw.githubusercontent.com/kodimexico/miNuevoRepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kodimexico/miNuevoRepo/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>JGP-REPO official Repo</summary>
+   		<description lang="en">HECHO POR JGP-REPO Y DAR LAS GRACIAS A JORGE H. DE KODI SPAIN POR SU AYUDA</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
