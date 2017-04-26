@@ -1,0 +1,8 @@
+﻿
+Versión 3.3.0
+Actualizado decodificadores imagenes de fondo actualizada y compatibilidad con wimdows 10
+Actualización de codes.
+Añadido livestreams script addons
+Juegos de comandos
+Soporte para cifrado XML / M3U8
+

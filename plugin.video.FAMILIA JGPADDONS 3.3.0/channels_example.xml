@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channels>
+    <channels_info> <!-- this is opitonal -->
+      <title>Testing XML</title> <!-- if channels_info, a title is required, other elements are optional -->
+      <genre>News</genre>
+      <description>LA MEJOR TV</description>
+      <thumbnail>https://3.bp.blogspot.com/-Y8-5WoOvTy8/WPaxF7tIrqI/AAAAAAAAAAM/Zj7iM7uJgeoB2roWqbe0Wi-gVA6z_F0vwCLcB/s1600/429730858_225708.jpg</thumbnail>
+      <fanart>https://1.bp.blogspot.com/-sQL3Nn14B34/WPaxGeQkrGI/AAAAAAAAAAc/5-LXILRSdoo5nBn-h2WygqsuR_wEmycrgCLcB/s320/429926470_213809.jpg</fanart>
+      <date>20.04.2017</date>
+      <credits>JGP ADDONS</credits>
+    </channels_info>
+    
+    <channel>
+    <name>News</name>
+    <thumbnail>https://3.bp.blogspot.com/-Y8-5WoOvTy8/WPaxF7tIrqI/AAAAAAAAAAM/Zj7iM7uJgeoB2roWqbe0Wi-gVA6z_F0vwCLcB/s1600/429730858_225708.jpg</thumbnail>
+    <fanart>https://1.bp.blogspot.com/-sQL3Nn14B34/WPaxGeQkrGI/AAAAAAAAAAc/5-LXILRSdoo5nBn-h2WygqsuR_wEmycrgCLcB/s320/429926470_213809.jpg</fanart>
+        <items>
+            <item>
+                <title>POKER CHANNEL</title>
+                <link>mms://some/place/pokerchannel</link>
+                <thumbnail>https://3.bp.blogspot.com/-Y8-5WoOvTy8/WPaxF7tIrqI/AAAAAAAAAAM/Zj7iM7uJgeoB2roWqbe0Wi-gVA6z_F0vwCLcB/s1600/429730858_225708.jpg</thumbnail>
+                <genre>Poker</genre>
+                <info>The Poker Channel – Europe’s largest dedicated gaming TV network is available online to a global audience, and to more than 30 million cable and satellite homes in Europe and Latin America.</info>
+                <date>07.12.2011</date>  <!-- format - dd.mm.yyyy -->
+                <epg></epg>  <!-- See daschacka's post - http://forum.xbmc.org/showpost.php?p=936228&postcount=1076 -->
+                <fanart>https://1.bp.blogspot.com/-sQL3Nn14B34/WPaxGeQkrGI/AAAAAAAAAAc/5-LXILRSdoo5nBn-h2WygqsuR_wEmycrgCLcB/s320/429926470_213809.jpg</fanart>
+            </item>
+            
+            <item>
+                <title>News 4</title>         
+                <link>rtmp://some/place playpath=some_place swfUrl="http://player.swf pageUrl=http://nhkworld/r/movie/ swfVfy=true live=true</link>
+                <thumbnail>https://3.bp.blogspot.com/-Y8-5WoOvTy8/WPaxF7tIrqI/AAAAAAAAAAM/Zj7iM7uJgeoB2roWqbe0Wi-gVA6z_F0vwCLcB/s1600/429730858_225708.jpg</thumbnail>
+            </item>
+        </items>
+    </channel>
+
+    <channel>
+    <name>Television</name>
+    <thumbnail>https://3.bp.blogspot.com/-Y8-5WoOvTy8/WPaxF7tIrqI/AAAAAAAAAAM/Zj7iM7uJgeoB2roWqbe0Wi-gVA6z_F0vwCLcB/s1600/429730858_225708.jpg</thumbnail>
+    <fanart>https://1.bp.blogspot.com/-sQL3Nn14B34/WPaxGeQkrGI/AAAAAAAAAAc/5-LXILRSdoo5nBn-h2WygqsuR_wEmycrgCLcB/s320/429926470_213809.jpg</fanart>
+    <subchannel>
+        <name>Tv 1</name>
+        <thumbnail>https://3.bp.blogspot.com/-Y8-5WoOvTy8/WPaxF7tIrqI/AAAAAAAAAAM/Zj7iM7uJgeoB2roWqbe0Wi-gVA6z_F0vwCLcB/s1600/429730858_225708.jpg</thumbnail>
+        <fanart>https://1.bp.blogspot.com/-sQL3Nn14B34/WPaxGeQkrGI/AAAAAAAAAAc/5-LXILRSdoo5nBn-h2WygqsuR_wEmycrgCLcB/s320/429926470_213809.jpg</fanart>
+            <subitems>
+                <subitem>
+                <title>tv1-1</title>
+                <link>mms://some/place</link>
+                <thumbnail>https://3.bp.blogspot.com/-Y8-5WoOvTy8/WPaxF7tIrqI/AAAAAAAAAAM/Zj7iM7uJgeoB2roWqbe0Wi-gVA6z_F0vwCLcB/s1600/429730858_225708.jpg</thumbnail>
+                </subitem>
+
+                <subitem>
+                <title>tv1-2</title>
+                <link>http://some/place/channel_4.mp4</link>
+                <thumbnail>https://3.bp.blogspot.com/-Y8-5WoOvTy8/WPaxF7tIrqI/AAAAAAAAAAM/Zj7iM7uJgeoB2roWqbe0Wi-gVA6z_F0vwCLcB/s1600/429730858_225708.jpg</thumbnail>
+                </subitem>
+            </subitems>	
+        </channel>
+    </subchannel>
+    
+    <items>
+        <item>
+        <title>FILM 4</title>
+        <link>mms://some/place</link>
+        <thumbnail>https://3.bp.blogspot.com/-Y8-5WoOvTy8/WPaxF7tIrqI/AAAAAAAAAAM/Zj7iM7uJgeoB2roWqbe0Wi-gVA6z_F0vwCLcB/s1600/429730858_225708.jpg</thumbnail>
+        </item>
+
+        <item>
+        <title>CHANNEL 4</title>
+        <link>http://some/place/channel_4.mp4</link>
+        <thumbnail>https://3.bp.blogspot.com/-Y8-5WoOvTy8/WPaxF7tIrqI/AAAAAAAAAAM/Zj7iM7uJgeoB2roWqbe0Wi-gVA6z_F0vwCLcB/s1600/429730858_225708.jpg</thumbnail>
+        </item>
+    </items>	
+    </channel>
+
+</channels>	

@@ -1,0 +1,19 @@
+﻿<settings>
+  <category label="Información FAMILIA JGP ADDONS pruebas">
+       	<setting id="Updatecommonresolvers" label="Update Commonresolver from Genesis" type="bool" default="true" visible="false"/>
+    	<setting type="lsep" label="Versión del Addon 3.3.0 Actualizado 19/04/2017" option="close" action="RunPlugin(plugin://plugin.video.FAMILIA JGP ADDONS pruebas/?mode=7)" />
+        <setting type="lsep" label="Facebook: https://www.facebook.com/jgp.addons" option="close" action="RunPlugin(plugin://plugin.video.FAMILIA JGP ADDONS pruebas/?mode=7)" />
+        <setting type="lsep" label="Telegram:http://t.me/joinchat/AAAAAECvT5X6kJNWmD90HQ" option="close" action="RunPlugin(plugin://plugin.video.FAMILIA JGP ADDONS pruebas/?mode=7)" />
+		<setting type="lsep" label="Email: familiajgpaddons@gmail.com" option="close" action="RunPlugin(plugin://plugin.video.FAMILIA JGP ADDONS pruebas/?mode=7)" />
+		<setting type="lsep" label="Grupo facebook: familia jgp addons 320" option="close" action="RunPlugin(plugin://plugin.video.FAMILIA JGP ADDONS /?mode=7)" />
+ </category>
+		
+  <category label="Configuración General">
+        <setting type="lsep" label="Para resetear el addon" option="close" action="RunPlugin(plugin://plugin.video.FAMILIA JGP ADDONS pruebas/?mode=7)" />
+        <setting type="lsep" label="POR DEFECTO y luego en OK" option="close" action="RunPlugin(plugin://plugin.video.FAMILIA JGP ADDONS pruebas/?mode=7)" />
+		<setting id="ask_playlist_items" type="bool" label="Elegir Fuente de Video" default="true" visible="false"/>
+        <setting id="add_playlist" type="bool" label="Activar Multilink" default="true" visible="false"/>
+        <setting id="genesisorpulsar" type="enum" values="Genesis|Pulsar" label="Play IMDBid with:" default="Genesis"visible="false"/>
+        <setting id="donotshowbychannels" label="Ocultar Canales" type="bool" default="false" visible="false"/>
+  </category>
+</settings>
